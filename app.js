@@ -6,7 +6,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 
 const app = express();
-const port = process.env.PORT || 300;
+const port = process.env.PORT || 3000;
 
 const publicDirectoryPath = path.join(__dirname, "./public");
 const viewsPath = path.join(__dirname, "./templates/views");
